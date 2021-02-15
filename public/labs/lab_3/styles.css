@@ -1,2 +1,87 @@
-/* Add some css styles based on the tutorial at javascript.info: introduction to browser events
- https://javascript.info/introduction-browser-events */
+body {
+    background-color: rgb(126, 139, 4); /* Peepee Yellow */
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.carousel {
+position: relative;
+width: 400px;
+padding: 30px 50px;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 15px;
+background: #eee;
+}
+
+.carousel img {
+width: 130px;
+height: 130px;
+display: block;
+}
+
+.arrow {
+position: absolute;
+top: 60px;
+padding: 0;
+background: #ddd;
+border-radius: 15px;
+border: 1px solid gray;
+font-size: 24px;
+
+line-height: 24px;
+color: #444;
+display: block;
+}
+
+.arrow:focus {
+outline: none;
+}
+
+.arrow:hover {
+background: #ccc;
+cursor: pointer;
+}
+
+.prev {
+left: 7px;
+}
+
+.next {
+right: 7px;
+}
+
+.gallery {
+width: 390px;
+overflow: hidden;
+}
+
+.gallery ul {
+height: 130px;
+width: 9999px;
+margin: 0;
+padding: 0;
+list-style: none;
+transition: margin-left 250ms;
+font-size: 0;
+}
+
+.gallery li {
+display: inline-block;
+}
+
+.centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
