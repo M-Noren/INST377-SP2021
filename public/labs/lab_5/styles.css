@@ -1,0 +1,11 @@
+body {
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 0 10px;    
+}
+
+h1, h2 {
+    line-height: 1.2;
+}
+
+#mapid { height: 512px; }
